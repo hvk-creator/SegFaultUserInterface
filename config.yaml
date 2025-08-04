@@ -1,11 +1,10 @@
 max_ws_terminals: 10
 max_shared_desktop_conn: 4
 ws_ping_interval: 20 # seconds
-ws_timeout: 1080 # minutes
+ws_timeout: 9999 # minutes
 server_bind_address: 0.0.0.0:7171
 debug: false
 sf_endpoints: 
-  - "8lgm.segfault.net"
   - "adm.segfault.net"
 sf_ui_origin: http://127.0.0.1:7171
 disable_origin_check: true
